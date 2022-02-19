@@ -5,7 +5,11 @@
 <script>
 export default {
   name: 'Greet',
-  props: ['name','heroName']
+  // props: ['name','heroName']
+  props: {
+    name : String,
+    heroName : String
+  }
 }
 </script>
 
